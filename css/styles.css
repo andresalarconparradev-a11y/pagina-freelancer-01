@@ -14,6 +14,15 @@ html {
 
     /* Hack para box model */
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+/* Scroll-snap */
+.servicios,
+.navegacion-principal,
+.formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 
 *,
